@@ -1,10 +1,10 @@
 :root{
-   --bg-color: #F5F5FE;
-   --bg-color-2: #48466D;
-   --main-color: #46CDCF; /* 009d90 3D84A8 */
+   --bg-color: #6dbc295e;
+   --bg-color-2: #4c6d46;
+   --main-color: #40a850; /* 009d90 3D84A8 */
    --second-color: #ABEDD8;
-   --third-color: #3D84A8;
-   --letter-color: #48466D;
+   --third-color: #f4f7f8;
+   --letter-color: #466d52;
    --letter-color-2: #F5F5F5;
    --font-h1: 2rem;
    --font-h2: 1.5rem;
@@ -20,7 +20,7 @@
 
 body {
     background-color: var(--bg-color) ;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Barlow Semi Condensed', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--letter-color);
     font-size: 1rem;
 }
@@ -170,7 +170,7 @@ section.menu{
     transition: .2s;
 }
 .menu__list__item a:hover{
-    border-bottom: 1px solid #46CDCF;
+    border-bottom: 1px solid #46cfb4;
 }
 
 .menu__title{
@@ -216,7 +216,7 @@ section.menu{
 }
 .title__network__item a i:hover{
     transform: scale(1.2);
-    color: #3D84A8;
+    color: #a8a83d;
 }
 
 .title__lottie{
@@ -281,7 +281,7 @@ section.about{
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url("../assets/WhatsApp.jpeg");
+    background-image: url("../assets/logo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
